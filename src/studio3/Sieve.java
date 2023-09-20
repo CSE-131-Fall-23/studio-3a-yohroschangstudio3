@@ -28,11 +28,11 @@ public class Sieve {
 			}	
 		}
 		
+		// Print out values
 		for (int i = 2; i < max; i++)
 		{
-			// Same as if (array[i] == true)
-			if (array[i]) 
-				System.out.println(i);
+			if (array[i])
+				System.out.print(i + " ");
 		}
 		
 	}
